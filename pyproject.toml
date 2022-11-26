@@ -1,11 +1,13 @@
 [tool.poetry]
-name = "who"
+name = "bibitibi"
 version = "0.1.0"
 description = ""
 authors = ["Gilad Kutiel <gilad.kutiel@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+tqdm = "^4.64.1"
+requests = "^2.28.1"
 
 [tool.poetry.dev-dependencies]
 autoflake = "^1.7.8"

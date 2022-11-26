@@ -14,13 +14,6 @@ function hidden(e) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    for (var i = pairs.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = pairs[i];
-        pairs[i] = pairs[j];
-        pairs[j] = temp;
-    }
-
     var i = 0
     const img_o = document.getElementById('img_o')
     const img_i = document.getElementById('img_i')
